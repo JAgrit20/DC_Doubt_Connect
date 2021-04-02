@@ -30,14 +30,13 @@
 
 </head>
 
-<body id="page-top" style="overflow-x: hidden;">
+<body id="page-top" style="overflow-x: hidden;" onload="window.addEventListener('resize', setPanels); setPanels();">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav"  style="background-color: #52acff;height: 82px;">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="height: 82px;background-color: #52acff;">
     <div class="container"> 
-      <a class="navbar-brand js-scroll-trigger display-1" href="index.html" style="margin-top: -14px;margin-left: -37px;"><img src="img/DClogo.png" alt="logo" height="80px" width="276px"></a>
+      <a class="navbar-brand js-scroll-trigger display-1" href="index.html" style="margin-top: -14px;margin-left: -37px;"><img src="img/DClogo.png" id="navlogo" alt="logo" height="80px" width="276px"></a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive" style="color:white;font-family: 'Raleway', sans-serif;">
@@ -55,7 +54,7 @@
             <a class="nav-link js-scroll-trigger" href="support.html" style="color:white"><b>Support</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://doubtconnect.in/" target="blank" style="color:black;font-weight: 600;height: 31px;top:41px;padding: 8px;padding-left: 28px;padding-right: 28px;border-radius: 9px;width: 273px;background: #f7d927;box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 25%);width: auto;"><b>WebApp</b></a>
+            <a class="nav-link js-scroll-trigger" href="https://doubtconnect.in/" target="blank" style="color:black;font-weight:bolder !important;height: 31px;top:41px;padding: 8px;padding-left: 28px;padding-right: 28px;border-radius: 9px;width: 273px;background: #f7d927;box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 25%);width: auto;"><b>WebApp</b></a>
           </li>
         </ul>
       </div>
@@ -66,6 +65,7 @@
       <div style="width: 30%;"></div>
       <img src="img/tutors.jpg"  class="tutorImage" width="70%">
   </div>
+
   <footer style="padding: 25px 0;text-align:center;color: white;background-color: black;height: 255px; font-family: 'Open Sans', sans-serif !important;">
     <div style="margin-left: 0;margin-right: 0;">
       <div class="row footerSection"  style="justify-content: space-between;width: 100%;margin-right: 0 !important;">
@@ -92,7 +92,7 @@
         </div>
         <div class="Incubated" style="text-align: left; margin-left: -12%;">
           <h5 style="font-weight: 600 !important;font-family:'Open Sans';margin-left: -3%;">Incubated at</h5>
-          <div class="row" style="justify-content: space-between;width: 117%;margin-top: -18px;">
+          <div class="row incubateImgs" style="justify-content: space-between;width: 117%;margin-top: -18px;">
             <img src="img/i1.png" height="93px">
             <img src="img/i2.png" height="93px">
             <img src="img/i3.png" height="93px">
