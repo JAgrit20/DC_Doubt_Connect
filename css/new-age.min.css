@@ -455,4 +455,43 @@ cursor: pointer;
    .tutorImage{
      display: none;
    }
+   .pricingTitle{
+      padding-left: 30px;
+   }
+   .supportbottomImg{
+      display: none;
+   }
+   .pricing-bottom{
+      margin-top: 23px;
+      margin-bottom: 50px;
+      flex-direction: column;
+   }
+   .plans-cards-row{
+      margin: 0;
+   }
+   .pricingcard{
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding-left: 35px;
+      padding-right: 35px;
+   }
+   .pricing-bottom-content{
+      margin-left: 0;
+   }
+   .pricing-plans>h3{
+      font-size: 18px;
+     
+   }
+   .pricingcard>div{
+      width: auto;
+      padding: 20px;
+      height: 340px;
+   }
+   .plans-cards-row>div{
+      padding: 0;
+   }
+   .pricingcard>div>h3{
+      font-size: 22px;
+      margin-bottom: 30px;
+   }
  }
