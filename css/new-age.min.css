@@ -96,8 +96,7 @@ justify-content: space-evenly;
    padding-left: 10px;
 }
 .tutorImage{
- 
-   height: 430px;
+   height: 560px;
 }
 .yellow{
    color:#fcbd20;
@@ -341,6 +340,6 @@ justify-content: space-evenly;
       padding-top: 60px;
    }
    .tutorImage{
-      height: 476px;
+     display: none;
    }
  }
