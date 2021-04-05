@@ -103,8 +103,11 @@ justify-content: space-evenly;
    margin-right: 12px;
    font-family: 'Open Sans';
    font-weight: 900;
-   margin-top: -1%;
+   margin-top: -9px;
    font-size: 28px;
+}
+.howto-steps>div>ul>.d-flex{
+margin-bottom: 10px;
 }
  @media only screen and (max-width: 768px) {
     .navtoggle{
