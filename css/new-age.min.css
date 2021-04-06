@@ -421,9 +421,6 @@ cursor: pointer;
     .section-heading>h2{
        font-size: 38px !important;
     }
-    .feature-item>img{
-       height: 150px !important;
-    }
     .feature-item>h3{
        font-size: 26px !important;
     }
