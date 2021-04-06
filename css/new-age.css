@@ -93,9 +93,9 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
-  font-weight: 900 !important;
-  font-family: 'Open Sans', sans-serif !important;
+  color: #f7d927 !important;
+  font-weight: 1000 !important;
+  font-family: 'Raleway', sans-serif!important;
   background-color: transparent;
 }
 
