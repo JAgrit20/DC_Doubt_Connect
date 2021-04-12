@@ -245,6 +245,13 @@ text-decoration: none;
 filter: opacity(0.8);
 cursor: pointer;
 }
+.theHead>.bannerLeft{
+   padding-left: 0;
+}
+.features{
+   padding-top: 100px 0;
+   padding-bottom: 100px;
+}
  @media only screen and (max-width: 768px) {
     .navtoggle{
        position: fixed;
@@ -258,8 +265,9 @@ cursor: pointer;
 
     }
    #headerTitle{
-      font-size: 25px;
-      font-weight: 800 ;
+      font-size: 23px;
+      font-weight: 800;
+      margin-bottom: 10px;
    }
     #navlogo{
       height:74px;
@@ -408,6 +416,8 @@ cursor: pointer;
     }
     .aboutSVG{
        margin-left: 0 !important;
+       padding-right: 15px;
+       margin-bottom: -14%;
     }
     .phnImage{
        height: auto !important;
@@ -516,5 +526,18 @@ cursor: pointer;
    .pricingcard>div>h3{
       font-size: 22px;
       margin-bottom: 30px;
+   }
+   .theHead>.bannerLeft{
+      padding-left: 15px !important;
+   }
+   .features{
+      padding-top: 55px;
+      padding-bottom: 55px;
+   }
+   .pricing{
+      padding-bottom: 30px;
+   }
+   .pay-points>h5{
+      font-size: 16px;
    }
  }
