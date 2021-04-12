@@ -252,12 +252,16 @@ cursor: pointer;
    padding-top: 100px 0;
    padding-bottom: 100px;
 }
+.supportContent>div>div>a{
+   box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 25%);
+}
  @media only screen and (max-width: 768px) {
     .navtoggle{
        position: fixed;
        top: 4% !important;
        right: 33%;
     }
+
     .navbar-toggler{
        position: fixed;
        top: 3.5%;
@@ -386,7 +390,7 @@ cursor: pointer;
        text-align: center  !important;
     }
     .supportImg{
-       margin-top: 40% !important;
+      display: none;
     }
     .supportContent{
        width: 100% !important;
@@ -407,6 +411,7 @@ cursor: pointer;
     }
     .supportContent>div>div{
        margin-left: 0%;
+       margin-top: 139px !important;
     }
     .sHeader{
        height: auto !important;
