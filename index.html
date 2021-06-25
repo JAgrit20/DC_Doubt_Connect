@@ -25,13 +25,14 @@
 
   <!-- Custom styles for this template -->
   <link href="css/new-age.min.css" rel="stylesheet">
+  <link href="css/new-age.css" rel="stylesheet">
 
 </head>
 
 <body id="page-top" style="overflow-x: hidden;" onload="window.addEventListener('resize', setPanels); setPanels();">
 
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="height: 82px;">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav" style="height: 82px;background-color: #52acff !important;">
     <div class="container"> 
       <a class="navbar-brand js-scroll-trigger display-1" href="index.html" style="margin-top: -14px;margin-left: -37px;"><img src="img/new-dc-logo.png" id="navlogo" alt="logo" height="80px" width="276px"></a>
       
@@ -57,7 +58,16 @@
           </li>
         </ul>
       </div>
-      <a class="btn" href="https://doubtconnect.in/" style="background-color: #f7d532; font-weight: 900; border-radius: 10px; width: 145px; height: 35px;" role="button">WebApp</a>
+      <a id="comingSoon" class="btn" style="background-color: #f7d532; font-weight: 900; border-radius: 10px; width: 145px; height: 35px;" role="button">WebApp</a>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="img/coming_soon.svg">
+  </div>
+</div>
+
     </div>
   </nav>
 
@@ -375,6 +385,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/new-age.min.js"></script>
+  <script src="js/new-age.js"></script>
 
 </body>
 
