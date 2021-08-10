@@ -28,6 +28,7 @@
   <!-- Custom styles for this template -->
   <link href="css/new-age.min.css" rel="stylesheet">
   <link href="css/caraousel.css" rel="stylesheet">
+  <link href="css/new-age.css" rel="stylesheet">
 
 </head>
 
@@ -59,7 +60,18 @@
           </li>
         </ul>
       </div>
-      <a class="js-scroll-trigger navtoggle" href="https://doubtconnect.in/" target="blank" style="color:black;font-weight:bolder !important;height: 31px;top:41px;padding: 5px;padding-left: 28px;padding-right: 28px;border-radius: 9px;width: 273px;background: #f7d927;box-shadow: 0px 0px 4px 1px rgb(0 0 0 / 25%);width: auto;"><b>WebApp</b></a>
+      <div class="btns">
+        <a id="comingSoon" class="btn" style="background-color: #f7d532; font-weight: 900; border-radius: 10px; width: 145px; height: 35px;" role="button">WebApp</a>
+      </div>
+      
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <img src="img/coming_soon.svg">
+  </div>
+</div>
 
     </div>
   </nav>
@@ -111,122 +123,99 @@
       <div class="section-heading text-center">
         <h2 style="color: #52acff;font-family: 'Raleway';font-weight: 400;font-size: 44px;">Our Team</h2>
         <p style="font-family: 'Open Sans';font-size: 17px;">We have built a team who bring in the best of their knowledge  and experience to use and have created this wonderful platform today!</p>
-      </div>
-      <div id="wrapper">
+      </div >
+      <div style="display: flex; justify-content: center; align-items: center;">
+        <div id="wrapper" >
         <div id="carousel">
           <div id="content">
-            <div>
-            <img
-              class="item"
-              src="./img/team/raghav.jpg"
-            />
-            <p>Raghav Mishra</p>
-            <p style="margin-top: -15px; font-size: small;">Founder & Head of Business</p>
-            </div>
-            <div>
-              <img
-                class="item"
-                src="./img/team/suraj.jpg"
-              />
-              <p>Suraj Sharma</p>
-              <p style="margin-top: -15px; font-size: small;">Co-Founder & COO</p>
-              </div>
-              <div>
-                <img
-                  class="item"
-                  src="./img/team/vaibhavlal.jpg"
-                />
-                <p>Vaibhav Lal</p>
-                <p style="margin-top: -15px; font-size: small;">Co-Founder & CMO</p>
-                </div>
-                <div>
-                  <img
-                    class="item"
-                    src="./img/team/kapil.jpg"
-                  />
-                  <p>Kapil Kochhar</p>
-                  <p style="margin-top: -15px; font-size: small;">CEO</p>
+                  <div>
+                    <img
+                      class="item"
+                      src="./img/team/raghav.jpg"
+                    />
+                    <p>Raghav Mishra</p>
+                    <p style="margin-top: -15px; font-size: small;">Co-Founder & CBO</p>
                   </div>
                   <div>
                     <img
                       class="item"
-                      src="./img/team/trishi.jpg"
+                      src="./img/team/suraj.jpg"
                     />
-                    <p>Trishi Raj</p>
-                    <p style="margin-top: -15px; font-size: small;">CTO</p>
-                    </div>
-                    <div>
+                    <p>Suraj Sharma</p>
+                    <p style="margin-top: -15px; font-size: small;">Co-Founder & COO</p>
+                  </div>
+                  <div>
+                      <img
+                        class="item"
+                        src="./img/team/vaibhavlal.jpg"
+                      />
+                      <p>Vaibhav Lal</p>
+                      <p style="margin-top: -15px; font-size: small;">Co-Founder & CMO</p>
+                  </div>
+                  <div>
+                      <img
+                        class="item"
+                        src="./img/team/trishi.jpg"
+                      />
+                      <p>Trishi Raj</p>
+                      <p style="margin-top: -15px; font-size: small;">CTO</p>
+                  </div>
+                  <div>
                       <img
                         class="item"
                         src="./img/team/kishan.jpg"
                       />
                       <p>Kishan Patel</p>
-                      <p style="margin-top: -15px; font-size: small;">Head Of product development</p>
-                      </div>
-                      <div>
+                      <p style="margin-top: -15px; font-size: small;">Head of Product Development</p>
+                  </div>
+                  <div>
                         <img
                           class="item"
                           src="./img/team/vaibhav.jpg"
                         />
                         <p>Vaibhav Kadam</p>
                         <p style="margin-top: -15px; font-size: small;">Senior Andriod Developer</p>
-                        </div>
-                        <div>
-                          <img
-                            class="item"
-                            src="./img/team/shruthi.jpg"
+                  </div>
+                  <div>
+                       <img
+                          class="item"
+                          src="./img/team/heron.jpg"
+                       />
+                      <p>Heron</p>
+                      <p style="margin-top: -15px; font-size: small;">Senior Andriod Developer</p>
+                  </div>
+                  <div>
+                      <img
+                        class="item"
+                        src="./img/team/prangan.jpg"
+                        />
+                        <p>Prangan Kashyap</p>
+                        <p style="margin-top: -15px; font-size: small;">Head Of Product Design</p>
+                  </div>
+                  <div>
+                      <img
+                        class="item"
+                        src="./img/team/devunath.jpg"
+                        />
+                        <p>Devunath Kannan</p>
+                        <p style="margin-top: -15px; font-size: small;">Head Of Graphic Deisgn</p>
+                  </div>
+                   <div>
+                        <img
+                          class="item"
+                          src="./img/team/jayanthi.jpg"
+                        />
+                        <p>Jayanthi Shailendra</p>
+                        <p style="margin-top: -15px; font-size: small;">Head of Content</p>
+                  </div>
+                  <div>
+                        <img
+                          class="item"
+                          src="./img/team/tushar.jpg"
                           />
-                          <p>Shruthi Sharma</p>
-                          <p style="margin-top: -15px; font-size: small;">Webapp Developer </p>
-                          </div>
-                          <div>
-                            <img
-                              class="item"
-                              src="./img/team/heron.jpg"
-                            />
-                            <p>Heron</p>
-                            <p style="margin-top: -15px; font-size: small;">Senior Andriod Developer</p>
-                            </div>
-                            <div>
-                              <img
-                                class="item"
-                                src="./img/team/Saurav.jpg"
-                              />
-                              <p>Saurav</p>
-                              <p style="margin-top: -15px; font-size: small;">AI & ML Lead</p>
-                              </div>
-                              <div>
-                                <img
-                                  class="item"
-                                  src="./img/team/prangan.jpg"
-                                />
-                                <p>Prangan Kashyap</p>
-                                <p style="margin-top: -15px; font-size: small;">Head Of Product Deisgn</p>
-                                </div>
-                                <div>
-                                  <img
-                                    class="item"
-                                    src="./img/team/devunath.jpg"
-                                  />
-                                  <p>Devunath Kannan</p>
-                                  <p style="margin-top: -15px; font-size: small;">Head Of Graphic Deisgn</p>
-                                  </div>
-                                  <div>
-                                    <img
-                                      class="item"
-                                      src="./img/team/jayanthi.jpg"
-                                    />
-                                    <p>Jayanthi Shailendra</p>
-                                    <p style="margin-top: -15px; font-size: small;">Head of Content</p>
-                                    </div>
-                                    <div>
-                                      <img
-                                        class="item"
-                                        src="./img/team/tushar.jpg"
-                                      />
-                                      <p>Tushar Daksha</p>
-                                      <p style="margin-top: -15px; font-size: small;">Content Writer</p>
-                                      </div>
+                          <p>Tushar Daksha</p>
+                          <p style="margin-top: -15px; font-size: small;">Content Writer</p>
+                 </div>
         </div>
         <button id="prev">
           <svg
@@ -252,7 +241,8 @@
         </button>
       </div>
     </div>
-    
+    </div>
+      
   </div>
   </section>
 
@@ -282,10 +272,9 @@
         </div>
         <div class="Incubated" style="text-align: center; margin-left: -12%;">
           <h5 style="font-weight: 600 !important;font-family:'Open Sans';">Incubated at</h5>
-          <div class="row incubateImgs" style="justify-content: space-between;width: 117%;margin-top: -18px;">
-            <img src="img/i1.png" height="93px">
-            <img src="img/i2.png" height="93px">
-            <img src="img/i3.png" height="93px">
+          <div class="row incubateImgs" style="justify-content: space-between;margin-top: -18px;">
+            <img src="img/i1.png" height="93px" style="margin: 0 10px;">
+            <img src="img/i2.png" height="93px" style="margin: 0 10px;">
           </div>
         </div>
         <div class="d-flex">
@@ -331,6 +320,7 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/new-age.min.js"></script>
+  <script src="js/new-age.js"></script>
   <script src="js/caraousel.js"></script>
 </body>
 
