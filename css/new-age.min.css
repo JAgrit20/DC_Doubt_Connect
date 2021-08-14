@@ -520,97 +520,76 @@ footer ul li a:hover {
 .howto-steps > div > ul > .d-flex {
   margin-bottom: 10px;
 }
-.pricing,
-.pricing-plans,
-.pricingcard {
+
+.price-card {
+  /* background-color: #529dff; */
+  height: 405px;
+  width: 250px;
+  border-radius: 20px;
+  border: #529dff solid 2px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 40px 0px;
+}
+.price-img {
+  height: 400px;
+  width: 100%;
+  border-radius: 20px;
+}
+.price-items {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px;
+}
+.items-p {
+  font-size: 14px;
+}
+.price-title {
+  background-color: #529dff;
+  color: #fff;
+  border-radius: 0px 0px 0px 0px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  height: 40px;
+  padding-top: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
 }
-.subscription {
-  padding-top: 35px;
+.bold-text {
+  font-weight: 900 !important;
 }
-.pricingTitle {
-  padding-left: 50px;
+
+.pricing-button {
+  width: 120px !important;
+  height: 80px !important;
 }
-.pricingTitle > h3 {
-  color: #52acff;
-  font-weight: 500;
-  font-family: "Raleway", sans-serif;
-  font-size: 32px;
-  text-align: left;
+.pricing-button:hover {
+  cursor: pointer;
+  width: 125px !important;
+  height: 85px !important;
+  transition: all ease-in-out 0.1s;
 }
-.pricingTitle > h6 {
-  text-align: left;
-  font-weight: 500;
-  font-family: "Open sans", sans-serif;
-  font-size: 18px;
+.ticks {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
 }
-.pricing-plans > h3 {
-  font-size: 20px;
-  color: #52acff;
-  font-family: "Open sans", sans-serif;
-  font-weight: 1000;
-  padding: 14px;
-  margin-bottom: 25px;
+.t-c {
+  font-size: 10px;
+  color: rgba(34, 34, 34, 0.61);
+  padding-left: 5px;
 }
-.pricingcard {
-  padding-left: 50px;
-  padding-right: 50px;
-}
-.pricingcard > div {
-  padding: 19px;
-  padding-top: 40px;
-  width: 300px;
-  height: 350px;
-  border-radius: 30px;
-  box-shadow: 0px 0px 12px 4px rgb(0 0 0 / 15%);
-}
-.pricingcard > div > h3 {
-  color: #52acff;
-  font-family: "Raleway", sans-serif;
-  font-size: 21px;
-  margin-bottom: 25px;
-  font-weight: 900;
-}
-.pricing-signup,
-.pricing-pay-btn {
-  color: black;
-  font-weight: 1000;
-  background: #f7d927;
-  border-radius: 15px;
-  box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 18%);
-}
-.pricing-signup {
-  padding: 10px;
-  padding-right: 30px;
-  padding-left: 30px;
-  font-size: 18px;
-}
-.pricing-pay-btn {
-  padding: 9px;
-  padding-left: 60px;
-  padding-right: 60px;
-  font-size: 16px;
-}
+
 .blue-or {
   color: #52acff;
   font-family: "Raleway", sans-serif;
   font-weight: 1000;
   font-size: 30px;
 }
-.pricing-bottom {
-  justify-content: space-between;
-  margin-top: 80px;
-}
-.pricing-bottom-content {
-  margin-left: 25%;
-}
-.pricing-bottom-txt > p {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 1000;
-  margin-bottom: 40px;
-}
+
 .pay-points {
   margin-bottom: 25px;
 }
