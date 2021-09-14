@@ -419,10 +419,9 @@ footer ul li a:hover {
 }
 .havingDoubt {
   display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
+  align-items: flex-start !important;
   flex-direction: column;
-  padding: 20px;
+  padding: 33px;
 }
 .havingDoubt > h1 {
   color: #52acff;

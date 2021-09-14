@@ -4,26 +4,19 @@
         height:20vw;
     }
 }
-.right-arrow{
-    width: 8vw;
-}
 @media screen and (max-width:968px) {
     #mainNav,#navbarResponsive{
         background-color: #52acff!important;
     }
-    /* .right-arrow{
-        width: 42px!important;
-    } */
-}
-/* @media screen and (max-width:700px) {
-    .right-arrow{
-        width: 42px!important;
+} 
+@media screen and (max-width:600px) {
+    .Adios{
+        height: 300px!important;
     }
-} */
-/* .arrowalign{
-    min-height: 72.5px;
-    max-height: 220px;
-} */
+}
+.right-arrow{
+    width: 8vw;
+}
 .scrolling{
     background-color: #52acff!important;
 }
