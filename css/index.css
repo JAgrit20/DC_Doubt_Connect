@@ -4,11 +4,6 @@
         height:20vw;
     }
 }
-@media screen and (max-width:968px) {
-    #mainNav,#navbarResponsive{
-        background-color: #52acff!important;
-    }
-} 
 @media screen and (max-width:600px) {
     .Adios{
         height: 300px!important;
