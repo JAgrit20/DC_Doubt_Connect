@@ -99,15 +99,7 @@ section h2 {
 #mainNav .navbar-nav > li > a:hover {
   color: #fdcc52;
 }
-@media (max-width: 992px) {
-  .webapp{
-    display: none!important;
-  }
-}
 @media (min-width: 992px) {
-  .webappbtn{
-    display: none!important;
-  }
   #mainNav {
     border-color: transparent;
   }
@@ -437,7 +429,8 @@ footer ul li a:hover {
 .havingDoubt > h1 {
   color: #52acff;
   font-size: 39px;
-  font-weight: 500;
+  
+  font-weight: 600;
   font-family: "Raleway", sans-serif;
 }
 .supportContent > div > div {
