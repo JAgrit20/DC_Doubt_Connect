@@ -1,9 +1,3 @@
-/* @media screen and (max-width:1470px) {
-    .img-fluid{
-        width:20vw;
-        height:20vw;
-    }
-} */
 .img-fluid{
     min-width:220px;
     min-height:220px;
@@ -22,6 +16,9 @@
     }
 }
 @media screen and (max-width: 992px) {
+    .navbar-nav{
+        padding-top: 10px;
+    }
     .webapp{
         display: none!important;
     }

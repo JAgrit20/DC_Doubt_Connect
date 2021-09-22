@@ -13,7 +13,8 @@
     <link rel="icon" href="img/ion.png" type="image/x-icon" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-
+    <!-- CSS -->
+    <link href="./css/index.css" rel="stylesheet"/>
     <!-- Custom fonts for this template -->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" />
     <link
@@ -69,121 +70,51 @@
     onload="window.addEventListener('resize', setPanels); setPanels();"
   >
     <!-- Navigation -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light fixed-top tutorsnav"
-      id="mainNav"
-      style="height: 82px; background-color: #52acff !important"
-    >
-      <div class="container">
-        <a
-          class="navbar-brand js-scroll-trigger display-1"
-          href="index.html"
-          style="margin-top: -14px; margin-left: -37px"
-          ><img
-            src="img/new-dc-logo.png"
-            id="navlogo"
-            alt="logo"
-            height="80px"
-            width="276px"
-        /></a>
-
-        <button
-          class="navbar-toggler navbar-toggler-right"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <i class="fas fa-bars"></i>
-        </button>
-        <div
-          class="collapse navbar-collapse"
-          id="navbarResponsive"
-          style="color: white; font-family: 'Raleway', sans-serif"
-        >
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a
-                class="nav-link js-scroll-trigger"
-                href="index.html"
-                style="color: white"
-                ><b>Home</b></a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link js-scroll-trigger"
-                href="about.html"
-                style="color: white"
-                ><b>About us</b></a
-              >
-            </li>
-            <!-- <li class="nav-item">
-              <a
-                class="nav-link js-scroll-trigger"
-                href="pricing.html"
-                style="color: white"
-                ><b>Pricing</b></a
-              >
-            </li> -->
-            <li class="nav-item">
-              <a
-                class="nav-link js-scroll-trigger active"
-                href="tutors.html"
-                style="color: white"
-                ><b>For Tutors</b></a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link js-scroll-trigger"
-                href="support.html"
-                style="color: white"
-                ><b>Support</b></a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="btns">
-          <!-- <a
-            id="comingSoon"
-            class="btn"
-            style="
-              background-color: #f7d532;
-              font-weight: 900;
-              border-radius: 10px;
-              width: 145px;
-              height: 35px;
-            "
-            role="button"
-            >WebApp</a
-          > -->
-          <a
-            id="comingSoon"
-            class="btn"
-            href="https://webapp.doubtconnect.in/"
-            style="
-              background-color: #f7d532;
-              font-weight: 900;
-              border-radius: 10px;
-              width: 145px;
-              height: 35px;
-            "
-            role="button"
-            >WebApp</a
-          >
-        </div>
+  <div class="navbar navbar-expand-lg navbar-light fixed-top " id="mainNav" style="height:82px;background-color: #52ACFF!important;" >
+    <div class="container"> 
+      <a class="navbar-brand js-scroll-trigger display-1" href="index.html" style="margin-top: -14px;margin-left: -37px;"><img src="img/new-dc-logo.png" alt="logo" height="80px" width="276px" style="margin-left: 20px;"></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive" style="color:white;font-family: 'Raleway', sans-serif;background-color: #52ACFF;">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item webappbtn">
+              <div class="nav-item webappbtn btns" style="margin-right: 0;">
+                <a href="https://webapp.doubtconnect.in/" target="_blank" rel="noreferrer" id="comingSoon" class="btn" style="background-color: #f7d532;font-weight: 900; border-radius: 10px; width: 145px; height: 35px;" role="button">WebApp</a>
+              </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger active" href="index.html" style="color:white"><b>Home</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="about.html" style="color:white"><b>About us</b></a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="pricing.html" style="color:white"><b>Pricing</b></a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="tutors.html" style="color:white"><b>For Tutors</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="support.html" style="color:white"><b>Support</b></a>
+          </li>
+        </ul>
+      </div>
+      <div class="btns webapp">
+        <a href="https://webapp.doubtconnect.in/" target="_blank" rel="noreferrer" id="comingSoon" class="btn" style="background-color: #f7d532; font-weight: 900; border-radius: 10px; width: 145px; height: 35px;" role="button">WebApp</a>
+        <!-- <a id="comingSoon" class="btn" style="background-color: #f7d532; font-weight: 900; border-radius: 10px; width: 145px; height: 35px;" role="button">WebApp</a> -->
+      </div>
         <!-- The Modal -->
         <div id="myModal" class="modal">
           <div class="modal-content">
             <span class="close">&times;</span>
-            <img src="img/coming_soon.svg" />
+            <img src="img/coming_soon.svg">
           </div>
         </div>
-      </div>
-    </nav>
+
+        </div>
+  </div>
 
     <!--Header -->
     <section class="tutorHeader">
